@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  color: #222222;
+  line-height: 1.6;
+  background-color: #f7f4ee;
+  padding: 24px;
+}
+h1 {
+  color: #15203a;
+  font-size: 40px;
+}
+p {
+  color: #b8541a;
+  font-size: 28px;
+}
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+  gap: 16px;
+  list-style-type: none;
+}
+nav a {
+  color: white;
+  background-color: #15203a;
+  padding: 8px 16px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #b8541a;
+}
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 12px;
+}
+.card img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
